@@ -23,7 +23,7 @@ declare module "@tanstack/react-router" {
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <RouterProvider router={router} />
+      <RouterProvider router={router} basepath="/Portfolio/" />
       <App />
     </ThemeProvider>
   </StrictMode>
