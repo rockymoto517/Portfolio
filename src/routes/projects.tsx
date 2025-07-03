@@ -17,7 +17,7 @@ export const Route = createFileRoute("/projects")({
 
 function RouteComponent() {
   return (
-    <div className="w-full h-fit grid grid-cols-1 align-middle justify-items-center justify-center p-2">
+    <main className="w-full h-fit grid grid-cols-1 align-middle justify-items-center justify-center p-2 mb-auto">
       <p className="text-center text-xl pb-2 my-4">
         Here is a list of some of my more notable projects.
         <br /> Projects with a
@@ -139,6 +139,6 @@ function RouteComponent() {
           <CarouselNext />
         </Carousel>
       </div>
-    </div>
+    </main>
   );
 }
