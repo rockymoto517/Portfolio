@@ -133,6 +133,35 @@ function RouteComponent() {
                   </CardContent>
                 </Card>
               </CarouselItem>,
+              <CarouselItem key="5">
+                <Card className="w-fit m-auto max-w-2/3">
+                  <CardHeader>
+                    <CardTitle>
+                      Arithmetic Expression Evaluator
+                      <Check color="#00ff00" className="inline ml-1 pb-1" />
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <CardImage
+                      link="https://github.com/rockymoto517/js-ast"
+                      src="ast.png"
+                      alt="Snippet of the github readme with an example."
+                    />
+                    <Separator className="mt-4 border-1" />
+                    <p className="mt-2">
+                      This library was developed with the idea of making it easy
+                      to evaluate arithmetic expressions that are stored as a
+                      string within a database. This is in order to hold
+                      variables within those string expressions. The way the
+                      project <i>eclipsebuilder</i> was created gives me a use
+                      case for such a library. Since it was forked, I prefer to
+                      keep the original functionalities as much as possible, and
+                      there was a similar system that was slightly less robust
+                      as mine.
+                    </p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>,
             ]}
           </CarouselContent>
           <CarouselPrevious />
