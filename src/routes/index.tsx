@@ -1,11 +1,6 @@
 // import { Card } from "@/components/ui/card";
-import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/")({
-  component: Index,
-});
-
-function Index() {
+export default function Index() {
   /*
   return (
     <div className="w-full mb-auto justify-center p-2">

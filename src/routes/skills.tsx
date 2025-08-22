@@ -1,11 +1,6 @@
 import { Separator } from "@/components/ui/separator";
-import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/skills")({
-  component: Skills,
-});
-
-function Skills() {
+export default function Skills() {
   return (
     <main className="w-3/5 mx-auto mb-auto p-2">
       <div className="flex justify-between">

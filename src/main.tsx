@@ -2,37 +2,24 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { ThemeProvider } from "./components/theme-provider";
 import "./index.css";
-import {
-  RouterProvider,
-  createRouter,
-  createHashHistory,
-} from "@tanstack/react-router";
-import { routeTree } from "./routeTree.gen";
-import App from "./App.tsx";
-
-// Memory history
-const hashHistory = createHashHistory();
-
-// Set up a Router instance
-const router = createRouter({
-  routeTree,
-  defaultPreload: "intent",
-  scrollRestoration: true,
-  history: hashHistory,
-});
-
-// Register things for typesafety
-declare module "@tanstack/react-router" {
-  interface Register {
-    router: typeof router;
-  }
-}
+import { BrowserRouter, Route, Routes } from "react-router";
+import RootPage from "./routes/__root.tsx";
+import Index from "./routes/index.tsx";
+import Skills from "./routes/skills.tsx";
+import Projects from "./routes/projects.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <RouterProvider router={router} basepath="/Portfolio" />
-      <App />
+      <BrowserRouter basename="/Portfolio">
+        <Routes>
+          <Route element={<RootPage />}>
+            <Route index element={<Index />} />
+            <Route path="skills" element={<Skills />} />
+            <Route path="projects" element={<Projects />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </ThemeProvider>
   </StrictMode>
 );

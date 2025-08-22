@@ -8,14 +8,9 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Separator } from "@/components/ui/separator";
-import { createFileRoute } from "@tanstack/react-router";
 import { Check } from "lucide-react";
 
-export const Route = createFileRoute("/projects")({
-  component: RouteComponent,
-});
-
-function RouteComponent() {
+export default function Projects() {
   return (
     <main className="w-full h-fit grid grid-cols-1 align-middle justify-items-center justify-center p-2 mb-auto">
       <p className="text-center text-xl pb-2 my-4">

@@ -1,6 +1,6 @@
 import { ModeToggle } from "@/components/mode-toggle";
 import { Separator } from "./ui/separator";
-import { Link } from "@tanstack/react-router";
+import { Link } from "react-router";
 
 export function Header() {
   return (
