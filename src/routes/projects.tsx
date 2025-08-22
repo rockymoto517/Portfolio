@@ -55,6 +55,34 @@ function RouteComponent() {
                 <Card className="w-fit m-auto max-w-2/3">
                   <CardHeader>
                     <CardTitle>
+                      XML Formatter
+                      <Check color="#00ff00" className="inline ml-1 pb-1" />
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <CardImage
+                      link="https://github.com/rockymoto517/xml-formatter"
+                      src="xml.png"
+                      alt="Snippet of the code running."
+                    />
+                    <Separator className="mt-4 border-1" />
+                    <p className="mt-2">
+                      This library was created because I couldn't find a
+                      satisfactory XML formatter library. The XML processor
+                      isn't fully featured as per the XML spec from W3C, but it
+                      isn't required for formatting. The idea behind creating
+                      this in C rather than other high-level languages is to get
+                      practice and familiarity with what dynamiclly allocated
+                      data actually looks like (e.g. arraylists or variable
+                      length strings).
+                    </p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>,
+              <CarouselItem key="3">
+                <Card className="w-fit m-auto max-w-2/3">
+                  <CardHeader>
+                    <CardTitle>
                       Eclipse Builder
                       <Check color="#00ff00" className="inline ml-1 pb-1" />
                     </CardTitle>
@@ -83,7 +111,7 @@ function RouteComponent() {
                   </CardContent>
                 </Card>
               </CarouselItem>,
-              <CarouselItem key="3">
+              <CarouselItem key="4">
                 <Card className="w-fit m-auto max-w-2/3">
                   <CardHeader>
                     <CardTitle>Yoga Experiences Africa</CardTitle>
@@ -106,7 +134,7 @@ function RouteComponent() {
                   </CardContent>
                 </Card>
               </CarouselItem>,
-              <CarouselItem key="4">
+              <CarouselItem key="5">
                 <Card className="w-fit m-auto max-w-2/3">
                   <CardHeader>
                     <CardTitle>Twitch Bot</CardTitle>
@@ -133,7 +161,7 @@ function RouteComponent() {
                   </CardContent>
                 </Card>
               </CarouselItem>,
-              <CarouselItem key="5">
+              <CarouselItem key="6">
                 <Card className="w-fit m-auto max-w-2/3">
                   <CardHeader>
                     <CardTitle>
