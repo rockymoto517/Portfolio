@@ -1,5 +1,7 @@
 // import { Card } from "@/components/ui/card";
 
+import { Navigate } from "react-router";
+
 export default function Index() {
   /*
   return (
@@ -10,5 +12,9 @@ export default function Index() {
     </div>
   );
 		*/
-  return <></>;
+  return (
+    <>
+      <Navigate to="/projects" replace />
+    </>
+  );
 }
