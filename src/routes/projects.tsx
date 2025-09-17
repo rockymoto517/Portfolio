@@ -49,10 +49,7 @@ export default function Projects() {
               <CarouselItem key="2">
                 <Card className="w-fit m-auto max-w-2/3">
                   <CardHeader>
-                    <CardTitle>
-                      XML Formatter
-                      <Check color="#00ff00" className="inline ml-1 pb-1" />
-                    </CardTitle>
+                    <CardTitle>XML Formatter</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <CardImage
@@ -75,6 +72,32 @@ export default function Projects() {
                 </Card>
               </CarouselItem>,
               <CarouselItem key="3">
+                <Card className="w-fit m-auto max-w-2/3">
+                  <CardHeader>
+                    <CardTitle>Binkw32 Hook</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <CardImage
+                      link="https://gitlab.com/rockymoto517/bink-hijack"
+                      src="bink.png"
+                      alt="Snippet of the code."
+                    />
+                    <Separator className="mt-4 border-1" />
+                    <p className="mt-2">
+                      This project was created to help reverse the{" "}
+                      <code>binkw32.dll</code> file. It essentially allows you
+                      to create a detour on each function exported by the dll
+                      file using the subhook library. There's a lot of macro
+                      operator spaghetti within the code due to the
+                      quick-and-dirty nature of the project, but it should be
+                      relatively legibile if you know how the stringize{" "}
+                      <code>#</code> and pasting <code>##</code> operators work
+                      ; ).
+                    </p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>,
+              <CarouselItem key="4">
                 <Card className="w-fit m-auto max-w-2/3">
                   <CardHeader>
                     <CardTitle>
@@ -106,7 +129,7 @@ export default function Projects() {
                   </CardContent>
                 </Card>
               </CarouselItem>,
-              <CarouselItem key="4">
+              <CarouselItem key="5">
                 <Card className="w-fit m-auto max-w-2/3">
                   <CardHeader>
                     <CardTitle>Yoga Experiences Africa</CardTitle>
@@ -129,7 +152,7 @@ export default function Projects() {
                   </CardContent>
                 </Card>
               </CarouselItem>,
-              <CarouselItem key="5">
+              <CarouselItem key="6">
                 <Card className="w-fit m-auto max-w-2/3">
                   <CardHeader>
                     <CardTitle>Twitch Bot</CardTitle>
@@ -156,13 +179,10 @@ export default function Projects() {
                   </CardContent>
                 </Card>
               </CarouselItem>,
-              <CarouselItem key="6">
+              <CarouselItem key="7">
                 <Card className="w-fit m-auto max-w-2/3">
                   <CardHeader>
-                    <CardTitle>
-                      Arithmetic Expression Evaluator
-                      <Check color="#00ff00" className="inline ml-1 pb-1" />
-                    </CardTitle>
+                    <CardTitle>Arithmetic Expression Evaluator</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <CardImage
