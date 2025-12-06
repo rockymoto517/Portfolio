@@ -11,7 +11,7 @@ import Projects from "./routes/projects.tsx";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Routes>
           <Route element={<RootPage />}>
             <Route index element={<Index />} />
