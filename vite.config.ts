@@ -12,4 +12,10 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // Required for using wsl2 :/
+  server: {
+    watch: {
+      usePolling: true,
+    },
+  },
 });

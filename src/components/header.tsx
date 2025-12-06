@@ -11,7 +11,7 @@ export function Header() {
             to="/"
             className="rounded-md hover:text-accent-foreground hover:bg-accent p-2 duration-150 ease-in"
           >
-            Home
+            Summary
           </Link>
           <Link
             to="/skills"
@@ -20,10 +20,10 @@ export function Header() {
             Skills
           </Link>
           <Link
-            to="/projects"
+            to="/experience"
             className="rounded-md hover:text-accent-foreground hover:bg-accent p-2 duration-150 ease-in"
           >
-            Projects
+            Experience
           </Link>
         </div>
         <ModeToggle />
