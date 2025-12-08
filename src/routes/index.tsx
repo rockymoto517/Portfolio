@@ -4,7 +4,7 @@ export default function Index() {
   return (
     <>
       <h1 className="text-center text-3xl">Hasan Ershaid</h1>
-      <div className="flex justify-center space-x-3">
+      <div className="my-6 sm:my-0 flex justify-center space-x-2 sm:space-x-3">
         <span>123-456-7890</span>
         <Separator orientation="vertical" />
         <span>Chicago, IL</span>
@@ -24,7 +24,7 @@ export default function Index() {
           LinkedIn
         </a>
       </div>
-      <ul className="mx-auto w-3/8 space-y-1 list-disc">
+      <ul className="mx-auto w-3/4 sm:w-3/8 space-y-1 list-disc">
         <li>
           Five years of experience developing responsive, user-centered web
           applications using React, Redux, TypeScript, JavaScript, HTML5, CSS3,

@@ -3,7 +3,7 @@ import projects from "../data/projects";
 
 export default function Projects() {
   return (
-    <div className="w-5/6 max-h-5/6 space-x-8 my-8 m-auto flex justify-between">
+    <div className="w-5/6 sm:max-h-5/6 my-8 m-auto grid sm:grid-cols-3 grid-cols-1 gap-12 justify-between">
       {projects.map((project) => (
         <Card className="w-full overflow-auto" key={project.id}>
           <CardHeader>

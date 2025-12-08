@@ -33,10 +33,6 @@ export default function Skills() {
         <h1 className="text-2xl font-semibold">Education</h1>
         <h2 className="text-lg">B.S. Mathematics and Computer Science</h2>
         <h3 className="mb-3">DePaul University</h3>
-        <p>
-          Relevant Coursework: Web Development, APIs, Optimizations,
-          Multi-threading, Software Testing
-        </p>
       </div>
     </main>
   );

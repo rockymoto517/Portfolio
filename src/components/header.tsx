@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 export function Header() {
   return (
-    <header className="mb-4">
+    <header className="mb-4 sticky top-0 bg-background">
       <div className="flex justify-between items-center w-full p-2">
         <div className="w-1/3 font-semibold space-x-2 py-3 text-foreground">
           <Link
