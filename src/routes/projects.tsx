@@ -5,7 +5,10 @@ export default function Projects() {
   return (
     <div className="w-5/6 sm:max-h-5/6 my-8 m-auto grid sm:grid-cols-3 grid-cols-1 gap-12 justify-between">
       {projects.map((project) => (
-        <Card className="w-full overflow-auto" key={project.id}>
+        <Card
+          className="w-full overflow-auto hover:shadow-card shadow-md duration-300 ease-in-out hover:-translate-y-4 project-card-scroll"
+          key={project.id}
+        >
           <CardHeader>
             <CardTitle className="space-y-2">
               <p>

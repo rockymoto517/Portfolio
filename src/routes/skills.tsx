@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <main className="w-3/5 mx-auto mb-auto p-2">
       <div className="flex-col space-y-2">
-        <h2 className="text-xl font-semibold">Frameworks</h2>
+        <h2 className="text-xl font-semibold">Languages</h2>
         <p className="mb-6">
           JavaScript, TypeScript, HTML5, CSS3, Python, SQL, C, C++, Bash, Shell
           Scripting

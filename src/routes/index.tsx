@@ -1,11 +1,22 @@
 import { Separator } from "@/components/ui/separator";
+import {
+  CSS3,
+  HTML5,
+  NodeJs,
+  NPM,
+  React,
+  Redux,
+  TailwindCSS,
+  TypeScript,
+} from "developer-icons";
+import { Link } from "react-router";
 
 export default function Index() {
   return (
     <>
       <h1 className="text-center text-3xl">Hasan Ershaid</h1>
-      <div className="my-6 sm:my-0 flex justify-center space-x-2 sm:space-x-3">
-        <span>123-456-7890</span>
+      <div className="mx-3 my-6 sm:my-0 flex justify-center space-x-2 sm:space-x-3">
+        <span>773-572-1812 (Ext. 9081)</span>
         <Separator orientation="vertical" />
         <span>Chicago, IL</span>
         <Separator orientation="vertical" />
@@ -18,11 +29,69 @@ export default function Index() {
         <Separator orientation="vertical" />
         <a
           className="hover:text-muted-foreground duration-100"
-          href="https://www.linkedin.com/in/hasan-ershaid-604202324/"
+          href="https://www.linkedin.com/in/hasan-ershaid-6271053a1/"
           target="_blank"
         >
           LinkedIn
         </a>
+      </div>
+      <div className="flex justify-center space-x-4 mb-4">
+        <Link
+          to="https://html.spec.whatwg.org/multipage/"
+          className="duration-150 ease-in hover:grayscale-100"
+          target="_blank"
+        >
+          <HTML5 size={48} />
+        </Link>
+        <Link
+          to="https://www.w3.org/Style/CSS/"
+          className="duration-150 ease-in hover:grayscale-100"
+          target="_blank"
+        >
+          <CSS3 size={48} />
+        </Link>
+        <Link
+          to="https://nodejs.org"
+          className="duration-150 ease-in hover:grayscale-100"
+          target="_blank"
+        >
+          <NodeJs size={48} />
+        </Link>
+        <Link
+          to="https://www.npmjs.com/"
+          className="duration-150 ease-in hover:grayscale-100"
+          target="_blank"
+        >
+          <NPM size={48} />
+        </Link>
+        <Link
+          to="https://www.typescriptlang.org/"
+          className="duration-150 ease-in hover:grayscale-100"
+          target="_blank"
+        >
+          <TypeScript size={48} />
+        </Link>
+        <Link
+          to="https://react.dev/"
+          className="duration-150 ease-in hover:grayscale-100"
+          target="_blank"
+        >
+          <React size={48} />
+        </Link>
+        <Link
+          to="https://redux.js.org/"
+          className="duration-150 ease-in hover:grayscale-100"
+          target="_blank"
+        >
+          <Redux size={48} />
+        </Link>
+        <Link
+          to="https://tailwindcss.com/"
+          className="duration-150 ease-in hover:grayscale-100"
+          target="_blank"
+        >
+          <TailwindCSS size={48} />
+        </Link>
       </div>
       <ul className="mx-auto w-3/4 sm:w-3/8 space-y-1 list-disc">
         <li>
