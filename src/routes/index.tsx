@@ -16,15 +16,15 @@ export default function Index() {
     <>
       <h1 className="text-center text-3xl">Hasan Ershaid</h1>
       <div className="mx-3 my-6 sm:my-0 flex justify-center space-x-2 sm:space-x-3">
-        <span>773-572-1812 (Ext. 9081)</span>
+        <span>773-572-1812</span>
         <Separator orientation="vertical" />
         <span>Chicago, IL</span>
         <Separator orientation="vertical" />
         <a
           className="hover:text-muted-foreground duration-100"
-          href="mailto:hasan.ershaid@proton.me"
+          href="mailto:hasan.ershaid90@gmail.com"
         >
-          hasan.ershaid@proton.me
+          hasan.ershaid90@gmail.com
         </a>
         <Separator orientation="vertical" />
         <a
