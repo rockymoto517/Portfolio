@@ -110,6 +110,10 @@ export default function Index() {
           streamline data flow and improve reliability
         </li>
         <li>
+          Experienced in building SEO-friendly, high-performance applications
+          using server-side rendering and data fetching strategies with Next.js
+        </li>
+        <li>
           Experienced in styling responsive and accessible UI components using
           Tailwind CSS to support consistent design systems and rapid
           development

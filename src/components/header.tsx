@@ -10,11 +10,9 @@ type navLinkStates = {
 export function Header() {
   function linkStyle({ isActive, isPending }: navLinkStates): string {
     let baseStyle =
-      "rounded-md hover:text-accent-foreground hover:bg-accent p-2 duration-150 ease-in ";
-    if (isActive)
-      return baseStyle + " border-2 dark:border-emerald-700 border-emerald-400";
-    if (isPending)
-      return baseStyle + "border-2 dark:border-emerald-900 border-emerald-600";
+      "rounded-md border-1 border-transparent hover:border-emerald-400 hover:text-accent-foreground p-2 duration-150 ease-in ";
+    if (isActive) return baseStyle + "text-accent-foreground bg-accent";
+    if (isPending) return baseStyle + "text-accent-foreground bg-accent";
     return baseStyle;
   }
 

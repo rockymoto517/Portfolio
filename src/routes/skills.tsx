@@ -12,8 +12,8 @@ export default function Skills() {
 
         <h2 className="text-xl font-semibold">Frameworks</h2>
         <p className="mb-6">
-          Tailwind CSS, Material UI, ShadCN UI, React, React Redux, Redux
-          Toolkit, React Router, Tanstack Router, Axios, Vite
+          Tailwind CSS, Material UI, ShadCN UI, React, React Redux, Next.js,
+          Redux Toolkit, React Router, Tanstack Router, Axios, Vite
         </p>
 
         <h2 className="text-xl font-semibold">Databases</h2>
