@@ -95,53 +95,48 @@ export default function Index() {
       </div>
       <ul className="mx-auto w-3/4 sm:w-3/8 space-y-1 list-disc">
         <li>
-          Five years of experience developing responsive, user-centered web
-          applications using React, Redux, TypeScript, JavaScript, HTML5, CSS3,
-          and Node.js
+          Five years of experience building and supporting full-stack web
+          applications with a focus on Node.js backend services and modern
+          front-end development using React and TypeScript
         </li>
         <li>
-          Skilled in building dynamic, component-driven interfaces with React,
-          leveraging hooks and reusable component patterns to create scalable,
-          maintainable, and performant applications
+          Designed and implemented RESTful APIs using Node.js, handling
+          authentication, authorization, validation, and error handling to
+          support scalable client applications
         </li>
         <li>
-          Proficient in managing complex application state with Redux and Redux
-          Toolkit, including creating slices, thunks, and selectors to
-          streamline data flow and improve reliability
+          Strong experience with asynchronous and event-driven programming using
+          async/await and promises to build efficient, non-blocking backend
+          logic
         </li>
         <li>
-          Experienced in building SEO-friendly, high-performance applications
-          using server-side rendering and data fetching strategies with Next.js
+          Structured backend systems using modular architectures, separating
+          routing, business logic, and data access layers to improve
+          maintainability and testability
         </li>
         <li>
-          Experienced in styling responsive and accessible UI components using
-          Tailwind CSS to support consistent design systems and rapid
-          development
+          Built responsive, user-facing interfaces with React, leveraging
+          reusable components and hooks to deliver performant and maintainable
+          front-end experiences
         </li>
         <li>
-          Proficient in building multi-page application flows with React Router,
-          including protected routes, nested routing structures, and
-          parameterized paths to deliver intuitive navigation experiences
+          Managed shared application state using Redux and Redux Toolkit to
+          coordinate data flow between backend services and front-end views
         </li>
         <li>
-          Strong understanding of modern JavaScript features, such as
-          async/await, promises, destructuring, arrow functions, and closures,
-          to write clean, modular, and efficient client- side logic
+          Implemented performance and reliability improvements across the stack,
+          including API optimization, request throttling, memoization, and
+          reduced client-side re-renders
         </li>
         <li>
-          Skilled in testing and validating REST APIs with Postman and cURL,
-          including configuring environments and writing automated scripts to
-          ensure dependable backend integration
+          Automated builds, tests, and deployments using GitHub Actions, and
+          followed Git best practices such as feature branching, pull requests,
+          and code reviews
         </li>
         <li>
-          Experienced in using GitHub Actions and workflow automation, and
-          experienced with Git best practices such as branching strategies, pull
-          requests, and structured code reviews
-        </li>
-        <li>
-          Proficient in working in Linux environments, using command-line tools
-          for file management, environment configuration, permissions, and
-          troubleshooting
+          Comfortable working in Linux environments and containerizing
+          applications with Docker and Docker Compose for consistent development
+          and deployment workflows
         </li>
         <li>
           Experienced in containerizing applications using Docker and Docker
@@ -149,14 +144,12 @@ export default function Index() {
           and deployment workflows
         </li>
         <li>
-          Participated in Agile/Scrum ceremonies, including sprint planning,
-          daily standups, demos, and retrospectives, and contributed throughout
-          the full software development lifecycle
+          Participated in Agile/Scrum ceremonies and contributed throughout the
+          full software development lifecycle
         </li>
         <li>
-          Collaborated closely with designers, backend engineers, QA teams, and
-          product owners, communicating proactively to ensure alignment and
-          smooth delivery across cross- functional teams
+          Collaborated closely with designers, frontend and backend engineers,
+          QA, and product owners to ensure cohesive feature delivery
         </li>
       </ul>
     </>
